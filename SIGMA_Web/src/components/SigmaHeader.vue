@@ -18,12 +18,12 @@ import jsonData from '@/assets/SigmaHeader.json';
     <div class="menu">
       <a href="#oldStudentsMap">Anciens élèves</a>
       <a href="#restaurantsMap">Restaurants</a>
-      <a href="#annuaire">L'annuaire</a>
+      <a href="#directory">L'annuaire</a>
       <a href="#studiesMap">Lieux d'études</a>
       <a href="#actu">Actualités</a>
-      <a href="#WorksMap">Alternances</a>
+      <a href="#worksMap">Alternances</a>
       <a href="#links">Liens utiles</a>
-      <a href="#Contact">Contact</a>
+      <a href="#contact">Contact</a>
     </div>
   </div>
 </template>
