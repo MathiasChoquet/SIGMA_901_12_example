@@ -37,8 +37,6 @@ onMounted(() => {
   geojsondata.value = jsonData;
 });
 
-
-
 </script>
 
 <style>

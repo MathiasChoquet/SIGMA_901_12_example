@@ -1,4 +1,5 @@
 <script setup>
+import json from '@/assets/App.json';
 import OldStudentsMap from './components/OldStudentsMap.vue';
 import RestaurantsMap from './components/RestaurantsMap.vue';
 import SigmaHeader from './components/SigmaHeader.vue';
@@ -10,7 +11,7 @@ import SigmaHeader from './components/SigmaHeader.vue';
     <OldStudentsMap class="generic-component" id="oldStudentsMap" />
     <RestaurantsMap class="generic-component" id="restaurantsMap" /> 
   </main>
-  <footer class="generic-component">Réalisé par les master II de la promotion 2023/2024</footer>
+  <footer class="generic-component">{{json.text}}</footer>
 </template>
 
 <style scoped>

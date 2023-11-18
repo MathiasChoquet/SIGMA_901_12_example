@@ -5,8 +5,9 @@ import jsonData from '@/assets/SigmaHeader.json';
 <template>
   <div>
     <div class="titre">
-      <div class="logo">
+      <div class="logo inpet2j">
         <img src="@/assets/logo_ut2j.png" alt="ut2js Logo" >
+        <span>{{ jsonData.inp }}</span>
       </div>
       <div class="texte">
         <h1>{{ jsonData.title }}</h1>
@@ -30,7 +31,7 @@ import jsonData from '@/assets/SigmaHeader.json';
 
 <style scoped>
 
-.titre {
+  .titre {
     display: flex;
     align-items: center;
     @media screen and (max-width: 1024px) {
@@ -81,6 +82,17 @@ import jsonData from '@/assets/SigmaHeader.json';
     align-items: center;
     justify-content: center;
   }
+
+  .inpet2j {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+  }
+
+  span {
+      font-size: 0.7rem;
+      padding : 10px
+    }
 
 
 </style>
