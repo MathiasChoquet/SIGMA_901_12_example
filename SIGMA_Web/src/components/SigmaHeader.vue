@@ -1,5 +1,5 @@
 <script setup>
-import jsonData from '@/assets/sigma_header_texts.json';
+import jsonData from '@/assets/SigmaHeader.json';
 </script>
 
 <template>
@@ -17,10 +17,13 @@ import jsonData from '@/assets/sigma_header_texts.json';
     </div>
     <div class="menu">
       <a href="#oldStudentsMap">Anciens élèves</a>
-      <a href="#restaurantsMap">Les restaurants</a>
-      <a href="#composant3">composant3</a>
-      <a href="#composant4">compt4</a>
-      <a href="#composant5">composant5</a>
+      <a href="#restaurantsMap">Restaurants</a>
+      <a href="#annuaire">L'annuaire</a>
+      <a href="#studiesMap">Lieux d'études</a>
+      <a href="#actu">Actualités</a>
+      <a href="#WorksMap">Alternances</a>
+      <a href="#links">Liens utiles</a>
+      <a href="#Contact">Contact</a>
     </div>
   </div>
 </template>
@@ -70,7 +73,7 @@ import jsonData from '@/assets/sigma_header_texts.json';
   .menu a {
     color: rgb(21, 44, 106);
     flex: 1;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     text-align: center;
     padding: 0 10px; /* Ajustez la valeur selon vos besoins */
     text-decoration: none;
