@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Carte des restaurants sympa</h1>
-    <h3>Cliquez que les points pour voir les informations</h3>
+    <h2>Cliquez que les points pour voir les informations</h2>
     <div>
       <div id="map" style="height: 400px;"></div>
     </div>
