@@ -4,7 +4,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  color: rgb(21, 44, 106);
+  /* color: rgb(21, 44, 106); */
   font-weight: normal;
 }
 
@@ -24,10 +24,8 @@ p {
   text-align: left;
 }
 
-.blue {
-  text-decoration: none;
-  transition: 0.4s;
-  font-size: 2rem;
+a {
+
 }
 
 .generic-component{

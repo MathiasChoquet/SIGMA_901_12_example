@@ -1,23 +1,23 @@
 <script setup>
-import jsonData from '@/assets/SigmaHeader.json';
+import jsonData from '@/assets/data/SigmaHeader.json';
 </script>
 
 <template>
   <div>
     <div class="titre">
       <div class="logo inpet2j">
-        <img src="@/assets/logo_ut2j.png" alt="ut2js Logo" >
+        <img src="@/assets/images/logo_ut2j.png" alt="ut2js Logo" >
         <span>{{ jsonData.inp }}</span>
       </div>
       <div class="texte">
         <h1>{{ jsonData.title }}</h1>
       </div>
       <div class="logo">
-        <img src="@/assets/logo_sigma.png" alt="SIGMA Logo" >
+        <img src="@/assets/images/logo_sigma.png" alt="SIGMA Logo" >
       </div>
     </div>
     <div class="menu">
-      <a href="#oldStudentsMap">Anciens élèves</a>
+      <a href="#oldStudentsMap"><p>Anciens élèves</p></a>
       <a href="#restaurantsMap">Restaurants</a>
       <a href="#directory">L'annuaire</a>
       <a href="#studiesMap">Lieux d'études</a>
@@ -72,7 +72,6 @@ import jsonData from '@/assets/SigmaHeader.json';
   }
 
   .menu a {
-    color: rgb(21, 44, 106);
     flex: 1;
     /* border: 1px solid #ccc; */
     text-align: center;

@@ -24,11 +24,6 @@ onMounted(() => {
     attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
-//   L.geoJSON(jsonData, {
-//     onEachFeature: (feature, layer) => {
-//       layer.bindPopup(`<span>${feature.properties.nom}</span><br><span>${feature.properties.poste}</span>`);
-// }}).addTo(map);
-
   // Ajoutez un marqueur
   L.marker([43.57, 1.40]).addTo(map).bindPopup(`<span>Restaurants de poisson</span><br><span>Pas cher et bon</span><br><span>Ticket moyen 8€</span>`);
   L.marker([43.566, 1.405]).addTo(map).bindPopup(`<span>Restaurants de viande</span><br><span>cher et pas bon</span><br><span>Ticket moyen 25€</span>`);
