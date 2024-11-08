@@ -1,6 +1,6 @@
 # SIGMA_Web
 
-This template should help get you started developing with Vue 3 in Vite.
+Web application example used for tutorial of VueJS in the SIGMA 901_12 course with leaflet example.
 
 ## Recommended IDE Setup
 
